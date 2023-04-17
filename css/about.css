@@ -1,0 +1,58 @@
+#about-hero{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+     url("../images/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    padding: 14px;
+}
+
+#about-hero h2, #about-hero p{
+    color: #fff;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+}
+
+#about img{
+    width: 50%;
+    height: auto;
+}
+
+#about div{
+    padding-left: 40px;
+}
+
+#about marquee{
+    background-color: #ccc;
+    width: 100%;
+}
+
+
+@media (max-width: 477px){
+
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+#about img{
+    width: 100%;
+  
+    margin-bottom: 50px;
+}
+
+#about div{
+    padding-left: 0px;
+}
+   
+   }
